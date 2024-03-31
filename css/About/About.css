@@ -1,0 +1,193 @@
+/* ===========================================================================
+                       common css part
+==============================================================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+img,
+li,
+ul,
+span,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue-color: #1c1e53;
+  --gray-color: #f4f6fc;
+  --white-color: #ffffff;
+  --font-black-color: #282938;
+  --yellow-color: #fcd980;
+  --poppins: "Poppins", sans-serif;
+}
+
+/* ===========================================================================
+                       common css part
+==============================================================================*/
+
+/* ================ navbar  css ================== */
+
+.customNav {
+  background: var(--blue-color);
+}
+.customItem {
+  color: #bbbbcb;
+  padding: 0 32px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--poppins);
+}
+
+.customItem:hover {
+  color: var(--white-color);
+}
+.custombtn {
+  padding: 16px 48px;
+  border-radius: 41px;
+  background-color: transparent;
+  border: none;
+  font-family: var(--poppins);
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid rgba(244, 246, 252, 0.3);
+}
+/* ================ navbar css ================== */
+
+/* ======================================= aboutpart css ==================================== */
+
+#aboutPart {
+  padding: 128px 0px;
+}
+
+.aboutPartLeft__text {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
+
+.aboutPartLeft__title {
+  font-size: 54px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
+
+.aboutPartLeft__summary {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
+/* ======================================= aboutpart css ==================================== */
+
+/* ======================================= goalPart css ==================================== */
+#goalPart {
+  padding: 80px 0px;
+  background-color: #f4f5f5;
+}
+
+.goalPartTop__text {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--font-black-color);
+  font-family: var(--poppins);
+}
+
+.goalPart__left {
+  margin-top: 4px;
+}
+
+.goalPartLeft__title {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--font-black-color);
+  font-family: var(--poppins);
+}
+
+.goalPartLeft__summary {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--font-black-color);
+  font-family: var(--poppins);
+}
+
+.goalPart__right {
+  margin-top: 4px;
+}
+
+.goalPartRight__title {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--font-black-color);
+  font-family: var(--poppins);
+}
+
+.goalPartRight__summary {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--font-black-color);
+  font-family: var(--poppins);
+}
+
+/* ======================================= goalPart css ==================================== */
+
+/* ======================================= processPart css ==================================== */
+
+#processPart {
+  padding: 128px 0px;
+}
+
+.processPartTop__title {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
+
+.processPartBottom__title {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
+
+.processPartBottom__summary {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
+/* ======================================= processPart css ==================================== */
